@@ -1,0 +1,30 @@
+<template>
+  <div class="relative min-h-screen w-screen">
+    <img
+      src="@/assets/img/offer1-bg.jpg"
+      alt="bg-image"
+      class="absolute h-full w-full opacity-04 left-0 right-0 top-0 bottom-0 object-cover"
+    />
+    <div class="lg:max-w-lg m-auto">
+      <header class="py-2">
+        <LogoDefault />
+      </header>
+      <main class="flex">
+        <section>
+          <h3></h3>
+        </section>
+        <section></section>
+      </main>
+    </div>
+  </div>
+</template>
+<script>
+import { LogoDefault } from "@/icons";
+
+export default {
+  name: "OfferPage1",
+  components: {
+    LogoDefault,
+  },
+};
+</script>

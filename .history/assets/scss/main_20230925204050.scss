@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.scss';
+
+html,
+body {
+  font-family: 'ProximaNova', Arial, sans-serif;
+  @apply text-black;
+}
+
+.no-scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}

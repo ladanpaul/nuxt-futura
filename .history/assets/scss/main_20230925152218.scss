@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.scss';
+
+
+html,
+body {
+  font-family: 'Gilroy', Arial, sans-serif;
+  @apply text-black;
+}

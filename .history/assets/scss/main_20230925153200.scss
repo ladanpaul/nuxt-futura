@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+// @import '.';
+
+html,
+body {
+  font-family: 'ProximaNova', Arial, sans-serif;
+  @apply text-black;
+}
